@@ -3,6 +3,7 @@
 angular.module('mebooksApp', [
   'mebooksApp.auth',
   'mebooksApp.admin',
+  'mebooksApp.character',
   'mebooksApp.constants',
   'ngCookies',
   'ngResource',

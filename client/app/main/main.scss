@@ -1,3 +1,16 @@
+#logo {
+  display: inline-block;
+  margin-top: -6px;
+  margin-right: 5px;
+  max-width: 100%;
+  height: 29px;
+  width: 40px;
+}
+
+.navbar-brand {
+  display: inline-block;
+}
+
 body {
   background: $body-bg;
 }
@@ -26,10 +39,20 @@ body {
   background: #4393B9;
 }
 
-.navbar-default {
-
+.btn-register {
+  background: #4393b9;
 }
+
+// Navbar Styles
 
 .navbar-text {
   margin-left: 15px;
+}
+
+.nav {
+  li {
+    a {
+      cursor: pointer;
+    }
+  }
 }
