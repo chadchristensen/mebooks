@@ -1,5 +1,14 @@
 #character-builder {
-  background-color: red;
+  background-color: $teal;
   margin-top: -20px;
   height: 100vh;
+
+  #character-nav {
+    background-color: darken($teal, 15%);
+
+    li  {
+      display: inline-block;
+    }
+  }
 }
+
