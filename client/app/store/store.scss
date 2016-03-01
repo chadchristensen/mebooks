@@ -1,0 +1,19 @@
+#bookstore {
+  .col-md-2 {
+      padding: 0;
+  }
+  .inner-card {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .book-cover {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .btn-full {
+      width: 100%;
+    }
+  }
+}

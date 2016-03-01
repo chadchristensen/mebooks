@@ -14,7 +14,7 @@
     </div>
     <div collapse="nav.isCollapsed" class="navbar-collapse collapse" id="navbar-main">
       <ul class="nav navbar-nav">
-        <li ng-repeat="item in nav.menu" ui-sref-active="active">
+        <li ng-hide="nav.isLoggedIn()" ng-repeat="item in nav.menu" ui-sref-active="active">
             <a ui-sref="{{item.state}}">{{item.title}}</a>
         </li>
         <li ng-show="nav.isAdmin()" ui-sref-active="active"><a ui-sref="admin">Admin</a></li>
@@ -25,7 +25,7 @@
         <li ng-hide="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="login">Login</a></li>
         <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="library">Library</a></li>
         <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="character">Characters</a></li>
-        <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="store">Store</a></li>
+        <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="store">Bookstore</a></li>
         <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="settings"><span class="glyphicon glyphicon-cog"></span></a></li>
         <li ng-show="nav.isLoggedIn()"><a ui-sref="logout">Logout</a></li>
       </ul>
