@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="11px" viewBox="0 0 23 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Top Suit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Top-Suit" transform="translate(-3.000000, -4.000000)" stroke-width="0.5">
+            <g id="Top-Tie" transform="translate(10.000000, 8.000000)" stroke="#B61111" fill="#CE0F0F">
+                <path d="M0,0.6875 L9,0.6875 L4.5,6.3125 L0,0.6875 Z" id="Combined-Shape"></path>
+            </g>
+            <path d="M1.78000421,8.01531933 L13.4114301,3.86683373 L13.7394597,9.55923338 L4.73226995,11.4115126 L1.78000421,8.01531933 Z" id="Rectangle-107-Copy" stroke="#DFDFDF" fill="#FFFFFF" transform="translate(7.759732, 7.639173) rotate(41.000000) translate(-7.759732, -7.639173) "></path>
+            <path d="M15.063159,8.18517535 L23.5519406,4.64153321 L26.4774396,9.53453381 L14.563275,12.6604288 L15.063159,8.18517535 Z" id="Rectangle-107-Copy-2" stroke="#DFDFDF" fill="#FFFFFF" transform="translate(20.520357, 8.650981) rotate(-187.000000) translate(-20.520357, -8.650981) "></path>
+        </g>
+    </g>
+</svg>

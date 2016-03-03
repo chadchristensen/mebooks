@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="40px" height="12px" viewBox="0 0 40 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="41px" height="11px" viewBox="0 0 41 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
     <title>Green Eyes</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Build-a-Character---Body" transform="translate(-416.000000, -495.000000)">
-            <g id="Eyes-Option" transform="translate(21.000000, 417.000000)">
-                <g id="Green-Eyes" transform="translate(395.000000, 78.000000)">
-                    <g id="Left-Eye-Copy" transform="translate(0.746830, 3.974235)">
-                        <g id="Left-Eye">
-                            <ellipse id="Oval-10" fill="#6EA776" cx="3.72672138" cy="3.94039312" rx="3.72672138" ry="3.94039312"></ellipse>
-                            <ellipse id="Oval-11" fill="#000000" cx="3.72672138" cy="3.94039312" rx="2.07040076" ry="2.18910729"></ellipse>
-                            <ellipse id="Oval-12" fill="#FFFFFF" cx="3.10560115" cy="2.40801802" rx="0.621120229" ry="0.656732187"></ellipse>
-                            <ellipse id="Oval-13" fill="#FFFFFF" cx="5.17600191" cy="5.47276822" rx="0.207040076" ry="0.218910729"></ellipse>
-                        </g>
+        <g id="Build-a-Character---Body" transform="translate(-416.000000, -492.000000)">
+            <g id="Green-Eyes" transform="translate(416.000000, 492.000000)">
+                <g id="Left-Eye-Copy" transform="translate(0.692184, 3.643049)">
+                    <g id="Left-Eye">
+                        <ellipse id="Oval-10" fill="#6EA776" cx="3.45403445" cy="3.61202703" rx="3.45403445" ry="3.61202703"></ellipse>
+                        <ellipse id="Oval-11" fill="#000000" cx="3.45403445" cy="3.61202703" rx="1.91890803" ry="2.00668168"></ellipse>
+                        <ellipse id="Oval-12" fill="#FFFFFF" cx="2.87836204" cy="2.20734985" rx="0.575672408" ry="0.602004504"></ellipse>
+                        <ellipse id="Oval-13" fill="#FFFFFF" cx="4.81241934" cy="5.03494676" rx="0.207040076" ry="0.218910729"></ellipse>
                     </g>
-                    <g id="Right-Eye-Copy" transform="translate(32.325197, 3.974235)">
-                        <g id="Right-Eye">
-                            <ellipse id="Oval-10" fill="#6EA876" cx="3.72672138" cy="3.94039312" rx="3.72672138" ry="3.94039312"></ellipse>
-                            <ellipse id="Oval-11" fill="#000000" cx="3.72672138" cy="3.94039312" rx="2.07040076" ry="2.18910729"></ellipse>
-                            <ellipse id="Oval-12" fill="#FFFFFF" cx="3.10560115" cy="2.40801802" rx="0.621120229" ry="0.656732187"></ellipse>
-                            <ellipse id="Oval-13" fill="#FFFFFF" cx="5.17600191" cy="5.47276822" rx="0.207040076" ry="0.218910729"></ellipse>
-                        </g>
+                </g>
+                <g id="Right-Eye-Copy" transform="translate(33.959938, 3.643049)">
+                    <g id="Right-Eye">
+                        <ellipse id="Oval-10" fill="#6EA876" cx="3.45403445" cy="3.61202703" rx="3.45403445" ry="3.61202703"></ellipse>
+                        <ellipse id="Oval-11" fill="#000000" cx="3.45403445" cy="3.61202703" rx="1.91890803" ry="2.00668168"></ellipse>
+                        <ellipse id="Oval-12" fill="#FFFFFF" cx="2.87836204" cy="2.20734985" rx="0.575672408" ry="0.602004504"></ellipse>
+                        <ellipse id="Oval-13" fill="#FFFFFF" cx="4.81241934" cy="5.03494676" rx="0.207040076" ry="0.218910729"></ellipse>
                     </g>
-                    <g id="Eyebrows-Copy" fill="#875937">
-                        <path d="M0.107194206,3.07772615 C0.107194206,3.07772615 1.03348244,1.76056232 2.68564178,1.15906124 C4.22765716,0.59766024 6.05496783,0.912322328 6.05496783,0.912322328 C6.05496783,0.912322328 4.23657462,-0.509921956 2.29190902,0.328338399 C0.347243425,1.16659875 0.107194206,3.07772615 0.107194206,3.07772615 L0.107194206,3.07772615 Z" id="Path-1"></path>
-                        <path d="M33.107684,1.63331138 C33.107684,1.63331138 34.4863226,0.878791764 36.2206559,1.10395058 C37.839367,1.31409881 39.3512841,2.44388318 39.3512841,2.44388318 C39.3512841,2.44388318 38.3065856,0.322743821 36.211189,0.174804665 C34.1157923,0.0268655102 33.107684,1.63331138 33.107684,1.63331138 L33.107684,1.63331138 Z" id="Path-1-Copy"></path>
-                    </g>
+                </g>
+                <g id="Eyebrows-Copy" fill="#875937">
+                    <path d="M0.0993507279,2.82124897 C0.0993507279,2.82124897 0.957861775,1.61384879 2.4891314,1.06247281 C3.91831639,0.54785522 5.61192141,0.836295467 5.61192141,0.836295467 C5.61192141,0.836295467 3.92658136,-0.46742846 2.12420836,0.300976866 C0.321835369,1.06938219 0.0993507279,2.82124897 0.0993507279,2.82124897 L0.0993507279,2.82124897 Z" id="Path-1"></path>
+                    <path d="M34.6851706,1.4972021 C34.6851706,1.4972021 35.9629331,0.805559117 37.570364,1.0119547 C39.0706329,1.20459058 40.4719218,2.24022625 40.4719218,2.24022625 C40.4719218,2.24022625 39.5036647,0.295848502 37.5615898,0.16023761 C35.6195149,0.0246267176 34.6851706,1.4972021 34.6851706,1.4972021 L34.6851706,1.4972021 Z" id="Path-1-Copy"></path>
                 </g>
             </g>
         </g>

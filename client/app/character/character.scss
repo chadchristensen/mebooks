@@ -37,6 +37,10 @@
 
   .item-container {
     margin-top: 15px;
+
+    ul {
+      padding-left: 0;
+    }
   }
 
   .item-row {
@@ -61,42 +65,201 @@
 
       &:first-child {
       border-left: 1px solid #4A8983;
+      }
 
       &:hover {
+        cursor: pointer;
         background-color: darken(#5FD8C8, 10%);
       }
 
-    }
   } // End of .item
 
+  #charinfoform {
+    margin-top: 20px;
 
+    label {
+      font-size: 18px;
+    }
+  }
 
 } // End of character builder
 
 #character-display {
-  .head {
-   height: 200px;
-   background-size: 30%;
+  .visible {
+    visibility: none;
   }
-}
-// Color Options - put these in their own file later
-*[class*="color-option-"] {
+  #character {
+    height: 300px;
+    margin-top: 50px;
+    min-width: 600px;
+
+    #charhead {
+     position: relative;
+     width: 30%;
+     height: 50%;
+     margin: 0 auto;
+     background-size: 100%;
+
+     #charhair {
+        position: absolute;
+        margin-top: -15px;
+        top: 0;
+        left: 11%;
+        width: 77%;
+        height: 120px;
+        background-size: 100%;
+      } // End of Hair
+
+     #chareyes {
+        position: absolute;
+        top: 22%;
+        left: 27%;
+        width: 44%;
+        height: 50px;
+        background-size: 100%;
+      } // End of eyes
+
+      #charmouth {
+        position: absolute;
+        top: 53%;
+        left: 38%;
+        width: 25%;
+        height: 50px;
+        background-size: 100%;
+      } // End of mouth
+    } // End of head
+
+    #charbody {
+      position: relative;
+      width: 30%;
+       height: 50%;
+       margin: 0 auto;
+       background-size: 100%;
+
+      #charshirt {
+        position: absolute;
+        z-index: -1;
+        top: 40%;
+        left: 38%;
+        width: 30%;
+        height: 40%;
+        background-size: 100%;
+      } // End of #charshirt
+
+      #charshorts {
+        position: absolute;
+        z-index: -2;
+        top: 60%;
+        left: 42%;
+        width: 22%;
+        height: 40%;
+        background-size: 100%;
+      } // End of #charshorts
+    }
+  } // End of character
+
+  #charsave {
+    .btn-save {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: darken($brand-primary, 15%);
+
+      &:hover {
+        background-color: darken($brand-primary, 23%);
+        color: darken($gray-lighter, 5%);
+      }
+    }
+  }
+} // End of character display
+
+*[class*="-option-"] {
     background-position: center center;
     background-repeat: no-repeat;
   }
 
+// Color Options - put these in their own file later
 .color-option-1 {
   background-image: url(../assets/images/E9DAA8.svg);
 }
-
 .color-option-2 {
   background-image: url(../assets/images/ECC19C.svg);
 }
-
 .color-option-3 {
   background-image: url(../assets/images/CFA163.svg);
 }
-
 .color-option-4 {
   background-image: url(../assets/images/A46C35.svg);
 }
+
+// Eye Options
+.eye-option-1 {
+  background-image: url(../assets/images/blueeyes.svg);
+}
+.eye-option-2 {
+  background-image: url(../assets/images/greeneyes.svg);
+}
+.eye-option-3 {
+  background-image: url(../assets/images/browneyes.svg);
+}
+.eye-option-4 {
+  background-image: url(../assets/images/laughingeyes.svg);
+}
+
+// Mouth Options
+.mouth-option-1 {
+  background-image: url(../assets/images/smile.svg);
+}
+.mouth-option-2 {
+  background-image: url(../assets/images/smirk.svg);
+}
+.mouth-option-3 {
+  background-image: url(../assets/images/suprisedmouth.svg);
+}
+.mouth-option-4 {
+  background-image: url(../assets/images/bigsmile.svg);
+}
+
+// Hair Options
+.hair-option-1 {
+  background-image: url(../assets/images/brownhair.svg);
+}
+.hair-option-2 {
+  background-image: url(../assets/images/blondhair.svg);
+}
+.hair-option-3 {
+  background-image: url(../assets/images/curlyhair.svg);
+}
+.hair-option-4 {
+  background-image: url(../assets/images/redhair.svg);
+}
+
+// Outfit Options
+
+// Top Options
+.shirt-option-1 {
+  background-image: url(../assets/images/defaultshirt.svg);
+}
+.shirt-option-2 {
+  background-image: url(../assets/images/julioshirt.svg);
+}
+.shirt-option-3 {
+  background-image: url(../assets/images/coolshirt.svg);
+}
+.shirt-option-4 {
+  background-image: url(../assets/images/russel.svg);
+}
+
+// Bottom Options
+.shorts-option-1 {
+  background-image: url(../assets/images/defaultshorts.svg);
+}
+.shorts-option-2 {
+  background-image: url(../assets/images/bluejeans.svg);
+}
+.shorts-option-3 {
+  background-image: url(../assets/images/sportsshorts.svg);
+}
+.shorts-option-4 {
+  background-image: url(../assets/images/graysports.svg);
+}
+

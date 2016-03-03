@@ -4,7 +4,7 @@
     <h1 class="text-center">Build A Character</h1>
     <nav>
       <ul id="character-nav">
-        <li ng-class="{ 'active': $state.includes('character.info')}"><a ng-click="vm.goCharInfo()"><img src="../assets/images/charinfo.png"></a></li>
+        <li ng-class="{ active : $state.includes('character.info')}"><a ng-click="vm.goCharInfo()"><img src="../assets/images/charinfo.png"></a></li>
         <li><a ng-click="vm.goCharBody()"><img src="../assets/images/charbody.png"></a></li>
         <li><a ng-click="vm.goCharOutfit()"><img src="../assets/images/charoutfit.png"></a></li>
       </ul>
@@ -16,10 +16,25 @@
 
   </div>
   <div class="col-md-6" id="character-display">
-    <h2 class="text-center">Hello {{ vm.characterName }}</h2>
-    <h4 class="text-center">From {{ vm.characterHometown}}</h4>
+    <h2 ng-class="{visible: vm.characterName}" class="text-center">I'm {{ vm.characterName }}</h2>
+    <h4 ng-class="{visible: vm.characterHometown}" class="text-center">from {{ vm.characterHometown}}</h4>
 
-    <div class="head color-option-1"></div>
-  </div>
+    <div id="character">
+      <div id="charhead" class="color-option-1">
+        <div id="charhair" class="hair-option-1"></div>
+        <div id="chareyes" class="eye-option-1"></div>
+        <div id="charmouth" class="mouth-option-1"></div>
+      </div>
+      <div id="charbody">
+        <div id="charshirt" class="shirt-option-1"></div>
+        <div id="charshorts" class="shorts-option-1"></div>
+      </div>
+    </div> <!-- End of character -->
+
+    <div id="charsave" class="text-center">
+      <a class="btn btn-save" href="">Save</a>
+    </div>
+
+  </div> <!-- End of character display -->
 </div> <!-- End of row -->
 

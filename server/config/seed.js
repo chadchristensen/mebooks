@@ -6,6 +6,21 @@
 'use strict';
 import Thing from '../api/thing/thing.model';
 import User from '../api/user/user.model';
+import Book from '../api/book/book.model';
+
+Book.find({}).removeAsync()
+  .then(() => {
+    Book.create({
+      title: 'When I Grow Up',
+      author: 'Chad Christensen',
+      price: 6.99
+    }, {
+      title: 'Firefighting Hero',
+      author: 'Chad Christensen',
+      price: 6.99
+    });
+  });
+
 
 Thing.find({}).removeAsync()
   .then(() => {

@@ -5,7 +5,7 @@ var mongoose = require('bluebird').promisifyAll(require('mongoose'));
 var BookSchema = new mongoose.Schema({
   title: String,
   author: String,
-  coverImg: String,
+  price: Number,
   pages: Array
 });
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="76px" height="73px" viewBox="0 0 76 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Suit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0 L23,0 L11.5,27 L0,0 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Suit">
+            <path d="M15,4.00000002 C28,4.00000002 48.5,4.00000002 61,4.00000002 C73.5,4.00000002 75.5,46.7018165 75.5,51.5 C75.5,56.2981836 0.5,55.5 0.5,51.5 C0.5,47.5 2,4.00000002 15,4.00000002 Z" id="Rectangle-25-Copy" stroke="#343131" fill="#343131"></path>
+            <path d="M13.2162017,36.0070667 C14.4474056,19.8830681 15.9258509,3.99999978 25.0867129,4 C42.7010195,4.00000042 35.6000316,3.99999998 51.9013477,4 C60.1771781,4.00000001 62.4002891,20.1627496 63.6214262,36.0070667 C64.8056238,51.3720914 65.1103684,66.3937503 65.1103684,68.8595206 C65.1103685,73.8679778 10.8571431,74.8696693 10.8571429,68.8595206 C10.8571427,65.9751347 12.0800735,50.8859427 13.2162017,36.0070667 Z" id="Rectangle-26" stroke="#2A2828" fill="#333131"></path>
+            <rect id="Rectangle-107" stroke="#DFDFDF" stroke-width="0.5" fill="#FFFFFF" x="27" y="0" width="23" height="4"></rect>
+            <g id="Triangle-2" transform="translate(27.000000, 4.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" stroke="#DFDFDF" stroke-width="0.5" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <polygon stroke="#B61111" stroke-width="0.5" fill="#CE0F0F" mask="url(#mask-2)" points="11.5 3 16 27 7 27 "></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

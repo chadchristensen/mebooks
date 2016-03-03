@@ -6,6 +6,7 @@ angular.module('mebooksApp')
       .state('store', {
         url: '/store',
         templateUrl: 'app/store/store.html',
-        controller: 'StoreCtrl'
+        controller: 'StoreController',
+        controllerAs: 'vm'
       });
   });

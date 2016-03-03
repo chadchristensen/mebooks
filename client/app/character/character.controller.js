@@ -19,6 +19,14 @@
     goCharOutfit() {
       this._$state.go('character.outfit');
     }
+
+    changeClass(option, part) {
+
+      // Get .charhead element from character display side
+      var element = angular.element(part);
+      element.removeClass();
+      element.addClass(option);
+    };
   }
 
   angular.module('mebooksApp.character')
