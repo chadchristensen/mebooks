@@ -3,9 +3,9 @@
     <h1 class="text-center">Build A Character</h1>
     <nav>
       <ul id="character-nav">
-        <li ui-sref-active="active"><a ui-sref="character.info" ng-click="vm.goCharInfo()"><img src="../assets/images/charinfo.png"></a></li>
-        <li ui-sref-active="active"><a ui-sref="character.body" ng-click="vm.goCharBody()"><img src="../assets/images/charbody.png"></a></li>
-        <li ui-sref-active="active"><a ui-sref="character.outfit" ng-click="vm.goCharOutfit()"><img src="../assets/images/charoutfit.png"></a></li>
+        <li ng-class="{ active : $state.includes('character.info')}"><a ng-click="vm.goCharInfo()"><img src="../assets/images/charinfo.png"></a></li>
+        <li><a ng-click="vm.goCharBody()"><img src="../assets/images/charbody.png"></a></li>
+        <li><a ng-click="vm.goCharOutfit()"><img src="../assets/images/charoutfit.png"></a></li>
       </ul>
     </nav>
     <div ui-view>
@@ -32,7 +32,7 @@
     </div> <!-- End of character -->
 
     <div id="charsave" class="text-center col-md-12">
-      <a class="btn btn-save" href="" ng-click="vm.saveCharacter()">Save</a>
+      <a class="btn btn-save" href="">Save</a>
     </div>
 
   </div> <!-- End of character display -->

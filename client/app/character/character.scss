@@ -13,7 +13,7 @@
     margin-bottom: 20px;
 
     li.active {
-      background-color: darken($teal, 20%);
+      background-color: darken($teal, 25%);
     }
 
     li  {
@@ -190,7 +190,7 @@
         color: darken($gray-lighter, 5%);
       }
     }
-  }
+  } // End of #charsave
 } // End of character display
 
 *[class*="-option-"] {

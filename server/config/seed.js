@@ -7,17 +7,28 @@
 import Thing from '../api/thing/thing.model';
 import User from '../api/user/user.model';
 import Book from '../api/book/book.model';
+import Character from '../api/character/character.model';
 
 Book.find({}).removeAsync()
   .then(() => {
     Book.create({
       title: 'When I Grow Up',
       author: 'Chad Christensen',
-      price: 6.99
+      price: 6.99,
+      coverImg: '../assets/images/growupbook.png'
     }, {
       title: 'Firefighting Hero',
       author: 'Chad Christensen',
-      price: 6.99
+      price: 6.99,
+      coverImg: '../assets/images/firefighterbook.png'
+    });
+  });
+
+Character.find({}).removeAsync()
+  .then(() => {
+    Character.create({
+      name: 'Chad',
+      hometown: 'Kennesaw'
     });
   });
 

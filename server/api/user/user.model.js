@@ -14,6 +14,7 @@ var UserSchema = new Schema({
     type: String,
     default: 'user'
   },
+  character: String,
   password: String,
   provider: String,
   salt: String
