@@ -9,6 +9,20 @@
       this._$state = $state;
       this._$http = $http;
       this.getCharacter();
+
+
+      // var character = {
+      //   name: ('' || this.character.name),
+      //   hometown: ('' || this.character.hometown),
+      //   friendname: ('' || this.character.friendname) ,
+      //   headoption: ('head-option-1' || this.character.headoption),
+      //   eyesoption: ('eyes-option-1' || this.character.eyesoption),
+      //   mouthoption: ('mouth-option-1' || this.character.mouthoption),
+      //   torsooption: ('torso-option-1' || this.character.torsooption),
+      //   shirtoption: ('shirt-option-1' || this.character.shirtoption),
+      //   shortsoption: ('shorts-option-1' || this.character.shortsoption),
+      //   shoesoption: ('shoes-option-1' || this.character.shoesoption)
+      // } // End of character
     }
     goCharInfo() {
       console.log('going to character info state');
