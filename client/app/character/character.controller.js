@@ -26,6 +26,13 @@
       var element = angular.element(part);
       element.removeClass();
       element.addClass(option);
+
+      if (part === "#charhead") {
+        var optionNumber = option.substr(-1);
+        var torso = angular.element("#chartorso");
+        torso.removeClass();
+        torso.addClass("torso-option-" + optionNumber);
+      };
     };
   }
 

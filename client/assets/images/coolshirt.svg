@@ -9,11 +9,11 @@
             <path d="M2.90890737,14.7865928 C5.12980724,6.62018309 13.7973992,0 22.2649001,0 L53.1512131,0 C61.6203328,0 70.542293,6.54187422 72.9559341,14.6689132 C72.9559341,14.6689132 75.9035738,22.8763214 75.9035738,27.674505 C75.9035738,32.4726885 -1.19779973e-07,30.7725478 -4.45596114e-15,27.674505 C1.19779965e-07,24.5764622 2.90890737,14.7865928 2.90890737,14.7865928 Z" id="Rectangle-25-Copy" stroke="#4B4B4B" fill="#476581"></path>
             <path d="M12.3590589,32.0070667 C13.5902628,15.8830681 15.068708,-2.19802206e-07 24.22957,6.70826272e-10 C41.8438767,4.24591593e-07 34.7428888,-1.94876689e-08 51.0442048,6.70826272e-10 C59.3200353,1.09048654e-08 61.5431462,16.1627496 62.7642834,32.0070667 C63.948481,47.3720914 64.2532256,62.3937503 64.2532256,64.8595206 C64.2532256,69.8679778 10.0000003,70.8696693 10,64.8595206 C9.99999987,61.9751347 11.2229306,46.8859427 12.3590589,32.0070667 Z" id="Rectangle-26" stroke="#4B4B4B" fill="#476581"></path>
             <text id="Theres-No-Place-Like" font-family="HelveticaNeue-CondensedBold, Helvetica Neue" font-size="6" font-style="condensed" font-weight="bold" letter-spacing="0.762500048" fill="#E1E1E1">
-                <tspan x="21" y="16">Theres No </tspan>
-                <tspan x="21" y="23">Place Like</tspan>
+                <tspan x="21.7564998" y="25">Theres No </tspan>
+                <tspan x="21.4714998" y="32">Place Like</tspan>
             </text>
             <text id="127.0.0.1" font-family="HelveticaNeue-CondensedBold, Helvetica Neue" font-size="6" font-style="condensed" font-weight="bold" letter-spacing="0.762500048" fill="#E1E1E1">
-                <tspan x="23" y="31">127.0.0.1</tspan>
+                <tspan x="23" y="41">127.0.0.1</tspan>
             </text>
         </g>
     </g>

@@ -16,9 +16,8 @@
 
   </div>
   <div class="col-md-6" id="character-display">
-    <h2 ng-class="{visible: vm.characterName}" class="text-center">I'm {{ vm.characterName }}</h2>
-    <h4 ng-class="{visible: vm.characterHometown}" class="text-center">from {{ vm.characterHometown}}</h4>
-
+    <!-- <h2 ng-class="{visible: vm.characterName}" class="text-center">I'm {{ vm.characterName }}</h2>
+    <h4 ng-class="{visible: vm.characterHometown}" class="text-center">from {{ vm.characterHometown}}</h4> -->
     <div id="character">
       <div id="charhead" class="color-option-1">
         <div id="charhair" class="hair-option-1"></div>
@@ -26,12 +25,14 @@
         <div id="charmouth" class="mouth-option-1"></div>
       </div>
       <div id="charbody">
+        <div id="chartorso" class="torso-option-1"></div>
         <div id="charshirt" class="shirt-option-1"></div>
         <div id="charshorts" class="shorts-option-1"></div>
+        <div id="charshoes" class="shoes-option-1"></div>
       </div>
     </div> <!-- End of character -->
 
-    <div id="charsave" class="text-center">
+    <div id="charsave" class="text-center col-md-12">
       <a class="btn btn-save" href="">Save</a>
     </div>
 
