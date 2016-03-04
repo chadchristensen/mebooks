@@ -18,7 +18,7 @@ Mebooks was developed for the Web Development Immersive course at General Assemb
 Bedtime is a four letter word to some children.  Not anymore!  With mebooks you can personalize their bedtime stories by creating a cartoon character in their likeness and using their name in the story.
 
 ### Mockups:
-![Library](https://github.com/chadchristensen/mebooks/blob/master/client/assets/images/Library.png)
+![Library](https://github.com/chadchristensen/mebooks/blob/master/client/assets/images/Library.png = 100x100)
 ![Store](https://github.com/chadchristensen/mebooks/blob/master/client/assets/images/Store.png)
 ![Build A Character - Info](https://github.com/chadchristensen/mebooks/blob/master/client/assets/images/Build%20a%20Character%20-%20Info.png)
 ![Build A Character - Body](https://github.com/chadchristensen/mebooks/blob/master/client/assets/images/Build%20a%20Character%20-%20Body.png)
