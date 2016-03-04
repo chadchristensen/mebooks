@@ -1,0 +1,54 @@
+pushd /Users/chadchristensen/ga/wdi/projects/mebooks/dist/client/assets/images
+
+mv A46C35-202fd33c26.svg A46C35.svg
+mv CFA163-f499931b4d.svg CFA163.svg
+mv E9DAA8-6fdaeae9c2.svg E9DAA8.svg
+mv ECC19C-a582da45bf.svg ECC19C.svg
+mv bigsmile-4268edac32.svg bigsmile.svg
+mv blackshoes-1f9d9b25e7.svg blackshoes.svg
+mv blondhair-9fdc7e04fa.svg blondhair.svg
+mv blueeyes-7d8e81b3e0.svg blueeyes.svg
+mv bluejeans-48a004a5d1.svg bluejeans.svg
+mv blueshoes-2ffc051363.svg blueshoes.svg
+mv body-e2e5af4edd.svg body.svg
+mv body2-55bd4fa64e.svg body2.svg
+mv body3-283ed1df21.svg body3.svg
+mv body4-3be8a73605.svg body4.svg
+mv browneyes-fe1d49ad03.svg browneyes.svg
+mv brownhair-d066d639ef.svg brownhair.svg
+mv charbody-b148ba070e.png charbody.png
+mv charinfo-811e8f4db2.png charinfo.png
+mv charoutfit-242a558fa2.png charoutfit.png
+mv coolshirt-0875e7c3b8.svg coolshirt.svg
+mv curlyhair-f4a9de0edf.svg curlyhair.svg
+mv defaultshirt-a9d81e1187.svg defaultshirt.svg
+mv defaultshorts-404b674f82.svg defaultshorts.svg
+mv demo1-078139a324.png demo1.png
+mv demo2-3f650c629d.png demo2.png
+mv demo3-a4e6b60161.png demo3.png
+mv demo4-d51da19e2f.png demo4.png
+mv demo5-18ee4e2bd0.png demo5.png
+mv demo6-acb8102294.png demo6.png
+mv demo7-0b1ef0cee1.png demo7.png
+mv firefighterbook-7ce38ec5c1.png firefighterbook.png
+mv graysports-055ec8dbcf.svg graysports.svg
+mv greeneyes-eed31dcaaa.svg greeneyes.svg
+mv growupbook-5fa7b68a17.png growupbook.png
+mv julioshirt-465728f023.svg julioshirt.svg
+mv laughingeyes-a7c04c9d6c.svg laughingeyes.svg
+mv logo-e7918cf223.png logo.png
+mv mebooks-ba2ae5a0cd.gif mebooks.gif
+mv mohawkhair-e3e3feccbc.svg mohawkhair.svg
+mv redhair-5a90da8809.svg redhair.svg
+mv redshoes-89ddd3e596.svg redshoes.svg
+mv russel-a3254a925b.svg russel.svg
+mv smile-0ac8b230f9.svg smile.svg
+mv smirk-ef9a3ceed4.svg smirk.svg
+mv sportsshorts-9e238b8f53.svg sportsshorts.svg
+mv suitback-c6cf8d51ba.svg suitback.svg
+mv suitfront-73497e605d.svg suitfront.svg
+mv suitpants-f663739c23.svg suitpants.svg
+mv suprisedmouth-9149d3736d.svg suprisedmouth.svg
+mv whiteshoes-cfe043f628.svg whiteshoes.svg
+
+popd

@@ -21,4 +21,6 @@ module.exports = {
           process.env.OPENSHIFT_APP_NAME ||
           'mongodb://localhost/mebooks'
   }
+
+  seedDB: true
 };
