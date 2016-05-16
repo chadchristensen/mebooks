@@ -41,5 +41,6 @@ Bedtime is a four letter word to some children.  Not anymore!  With mebooks you 
 - Create more digital assets, especially for female characters
 - Add ability for users to create multiple characters
 - Add ability for users to select which character to use in a book
+- Add instructions for how to use in readme
 - Improve digital assets (hire an illustrator)
 - Incorporate testing
