@@ -23,10 +23,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li ng-hide="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="signup">Sign up</a></li>
         <li ng-hide="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="login">Login</a></li>
-        <!-- <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="library">Library</a></li> -->
         <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="character.info">Characters</a></li>
-        <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="store">Bookstore</a></li>
-        <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="settings"><span class="glyphicon glyphicon-cog"></span></a></li>
+        <!-- <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="store">Bookstore</a></li> -->
+        <!-- <li ng-show="nav.isLoggedIn()" ui-sref-active="active"><a ui-sref="settings"><span class="glyphicon glyphicon-cog"></span></a></li> -->
         <li ng-show="nav.isLoggedIn()"><a ui-sref="logout">Logout</a></li>
       </ul>
     </div>

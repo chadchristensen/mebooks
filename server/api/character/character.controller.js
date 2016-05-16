@@ -11,6 +11,7 @@
 
 import _ from 'lodash';
 import Character from './character.model';
+import User from '../user/user.model';
 
 function respondWithResult(res, statusCode) {
   statusCode = statusCode || 200;
@@ -77,7 +78,12 @@ export function show(req, res) {
 // Creates a new Character in the DB
 export function create(req, res) {
   Character.createAsync(req.body)
-    .then(respondWithResult(res, 201))
+    .then(function(character){
+      User.findOneAsync({_id:req.user._id}).then(function(user){
+        user.characters.push(character)
+        user.saveAsync(respondWithResult(res, 201))
+      })
+    })
     .catch(handleError(res));
 }
 

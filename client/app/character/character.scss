@@ -85,6 +85,7 @@
 } // End of character builder
 
 #character-display {
+  display: fixed;
   .visible {
     visibility: none;
   }

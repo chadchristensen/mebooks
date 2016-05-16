@@ -14,7 +14,18 @@ var UserSchema = new Schema({
     type: String,
     default: 'user'
   },
-  character: String,
+  characters: [{
+    name: String,
+    hometown: String,
+    friendname: String,
+    headoption: String,
+    eyesoption: String,
+    mouthoption: String,
+    torsooption: String,
+    shirtoption: String,
+    shortsoption: String,
+    shoesoption: String
+  }],
   password: String,
   provider: String,
   salt: String
